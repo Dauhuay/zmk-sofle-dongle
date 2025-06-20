@@ -66,7 +66,7 @@
         layer_1 {
             bindings = <
 &kp GRAVE     &kp F1   &kp F2          &kp F3          &kp F4           &kp F5     &mmv MOVE_UP     &trans  &trans          &trans          &kp MINUS        &kp EQUAL         &kp BACKSPACE
-&trans        &kp F6   &kp F7          &kp F8          &kp F9           &kp F10    &mmv MOVE_DOWN   &trans  &kp PAGE_UP     &trans          &kp HOME         &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans        &kp F6   &kp F7          &kp F8          &kp F9           &kp F10    &mmv MOVE_DOWN   &trans  &kp PAGE_UP     &trans          &kp HOME         &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp CAPSLOCK  &kp F11  &kp F12         &kp UP_ARROW    &trans           &trans     &mmv MOVE_LEFT   &trans  &kp PAGE_DOWN   &kp UP_ARROW    &kp END          &kp SINGLE_QUOTE  &kp ENTER
 &trans        &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans     &mmv MOVE_RIGHT  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &kp RIGHT_SHIFT
 &kp C_MUTE    &trans   &trans          &to 0           &trans           &trans     &mkp LCLK        &trans  &trans          &trans          &trans           &kp DEL
@@ -78,10 +78,10 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &rgb_ug RGB_BRI  &kp F6  &kp F7          &kp F8          &kp F9           &kp F10    &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &rgb_ug RGB_BRD  &trans  &trans          &kp F11         &kp F12          &kp UNDER  &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &rgb_ug RGB_EFR  &trans  &trans          &kp UP_ARROW    &trans           &kp LBRC   &kp RBRC
-&trans     &trans        &trans          &trans        &trans        &trans          &rgb_ug RGB_EFF  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
+&kp GRAVE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &rgb_ug RGB_BRI  &kp F6  &kp F7          &kp F8          &kp MINUS        &kp EQUAL         &trans
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &rgb_ug RGB_BRD  &trans  &kp PAGE_UP     &trans          &kp HOME         &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &rgb_ug RGB_EFR  &trans  &kp PAGE_DOWN   &kp UP_ARROW    &kp END          &kp SINGLE_QUOTE  &kp ENTER
+&trans     &trans        &trans          &trans        &trans        &trans          &rgb_ug RGB_EFF  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &kp RIGHT_SHIFT
 &trans     &sys_reset    &bootloader     &trans        &trans        &trans          &rgb_ug RGB_TOG  &trans  &trans          &to 0           &trans           &trans
             >;
 
